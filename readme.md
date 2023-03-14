@@ -32,5 +32,5 @@ The image I'm using for [K3S Example Project](https://github.com/madlopt/k3s-exa
 
 ### Running the app locally
 
-Not sure even if someone will need it, but if you want to run the app locally, there is the docket-compose file for that. Just run `docker-compose up` and the app will be available on the `http://localhost:80. If you want to run if without anything just on your local machine, don't forget to run `npm install` before the first run.
+Not sure even if someone will need it, but if you want to run the app locally, there is the docket-compose file for that. Just run `docker-compose up` and the app will be available on the `http://localhost:80`. If you want to run if without anything just on your local machine, don't forget to run `npm install` before the first run.
 
