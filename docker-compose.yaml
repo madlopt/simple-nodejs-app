@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  nodejsapp:
+    image: madloptus/nodejsapp
+    ports:
+      - "80:80"
+    environment:
+        - PROJECT_NAME=nodejs-test-app
+        - CONSOLE_LOG_TIMEOUT=5000
+        - METRICS_ROUTE=/metrics
+        - METRICS_PORT=80
+        - METRICS_COMPONENT=applications
+        - METRICS_SOURCE=nodejs-test-app
+        - METRICS_NAMESPACE=default
