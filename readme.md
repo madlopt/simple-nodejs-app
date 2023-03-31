@@ -20,7 +20,7 @@ You can configure it via the following environment variables:
 
 The app is just sending `PROJECT_NAME is alive` message to the console every `CONSOLE_LOG_TIMEOUT` milliseconds and exposing the metrics endpoint on the `METRICS_ROUTE` route and `METRICS_PORT` port.
 
-### Metrics
+### Metrics & Prom-Client Memory Leak
 
 There are a lot of default metrics available, from the [prom-client](https://github.com/siimon/prom-client)  library. And the one is custom one ``http_requests_counter`` which is a counter of all the requests to the application just as an example of custom metric you can add.
 
